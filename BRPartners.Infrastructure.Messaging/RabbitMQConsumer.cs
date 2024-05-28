@@ -1,5 +1,4 @@
 ﻿using BRPartners.Application.Commands;
-using BRPartners.Application.Commands.Handlers;
 using BRPartners.Infrastructure.Messaging.Interfaces;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;

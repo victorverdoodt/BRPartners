@@ -2,7 +2,6 @@
 using BRPartners.Application.Commands.Handlers;
 using BRPartners.Domain.Core.Entities;
 using BRPartners.Domain.Interfaces;
-using BRPartners.Infrastructure.Messaging;
 using Moq;
 
 namespace BRPartners.Tests.Handlers

@@ -17,6 +17,7 @@
     <ProjectReference Include="..\BRPartners.Application\BRPartners.Application.csproj" />
     <ProjectReference Include="..\BRPartners.Domain\BRPartners.Domain.csproj" />
     <ProjectReference Include="..\BRPartners.Infrastructure.Data\BRPartners.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\BRPartners.Infrastructure.Messaging\BRPartners.Infrastructure.Messaging.csproj" />
   </ItemGroup>
 
 </Project>
