@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  brpartners.presentation.api:
+    image: ${DOCKER_REGISTRY-}brpartnerspresentationapi
+    build:
+      context: .
+      dockerfile: BRPartners.Presentation.API/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - rabbitmq
+      - mongo
+
+  rabbitmq:
+    image: rabbitmq:3.12.14-management-alpine
+    hostname: "rabbitmq"
+    labels:
+      NAME: "rabbitmq"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  mongo:
+    hostname: mongo
+    image: mongo
+    ports:
+      - "27017:27017"
+
+networks:
+  default:
+    driver: bridge
+    name: brpartners
