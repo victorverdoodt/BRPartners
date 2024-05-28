@@ -53,19 +53,9 @@ Após configurar o RabbitMQ e o `appsettings.json`, você pode executar a aplica
 
 1. **Abra o Visual Studio** e carregue sua solução.
 
-2. **Configure o projeto para usar Docker Compose**:
-   - Clique com o botão direito do mouse na solução no Solution Explorer.
-   - Selecione `Add` > `Container Orchestration Support`.
-   - Escolha `Docker Compose` e clique em `OK`.
+2. **Defina o Docker Compose como projeto de inicialização**:
 
-3. **Verifique o arquivo `docker-compose.yml`**:
-   - Certifique-se de que o arquivo `docker-compose.yml` está configurado corretamente na raiz do seu projeto.
-
-4. **Defina o Docker Compose como projeto de inicialização**:
-   - No Solution Explorer, clique com o botão direito no projeto `docker-compose`.
-   - Selecione `Set as Startup Project`.
-
-5. **Execute a aplicação**:
+3. **Execute a aplicação**:
    - Clique em `Start` ou pressione `F5` para iniciar a aplicação.
 
 O Visual Studio irá construir as imagens Docker e iniciar os contêineres definidos no arquivo `docker-compose.yml`.
