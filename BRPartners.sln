@@ -25,11 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRPartners.Infrastructure.D
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{337046BB-5243-4BC1-BA19-76AFD846BE14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Infrastructure.Messaging", "..\BRPartners.Infrastructure.Messaging\BRPartners.Infrastructure.Messaging.csproj", "{338472AB-FEA0-4EF6-8498-A41C3BC758A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Infrastructure.Messaging", "BRPartners.Infrastructure.Messaging\BRPartners.Infrastructure.Messaging.csproj", "{338472AB-FEA0-4EF6-8498-A41C3BC758A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{AF86C8F4-3A51-42C1-8C6D-FC2EBA6DB876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Tests", "..\BRPartners.Tests\BRPartners.Tests.csproj", "{4945EDFD-7A10-4714-A979-0B059B4AC785}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Tests", "BRPartners.Tests\BRPartners.Tests.csproj", "{4945EDFD-7A10-4714-A979-0B059B4AC785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
