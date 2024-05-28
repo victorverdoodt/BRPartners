@@ -27,6 +27,10 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Infrastructure.Messaging", "..\BRPartners.Infrastructure.Messaging\BRPartners.Infrastructure.Messaging.csproj", "{338472AB-FEA0-4EF6-8498-A41C3BC758A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{AF86C8F4-3A51-42C1-8C6D-FC2EBA6DB876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRPartners.Tests", "..\BRPartners.Tests\BRPartners.Tests.csproj", "{4945EDFD-7A10-4714-A979-0B059B4AC785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,10 @@ Global
 		{338472AB-FEA0-4EF6-8498-A41C3BC758A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{338472AB-FEA0-4EF6-8498-A41C3BC758A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{338472AB-FEA0-4EF6-8498-A41C3BC758A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4945EDFD-7A10-4714-A979-0B059B4AC785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4945EDFD-7A10-4714-A979-0B059B4AC785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4945EDFD-7A10-4714-A979-0B059B4AC785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4945EDFD-7A10-4714-A979-0B059B4AC785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +85,7 @@ Global
 		{E26A75AC-D944-496C-BC2C-9C429646A7AE} = {D1C74A19-26E5-46E7-87F0-7D0355D26E74}
 		{010C070C-8C94-4CBF-8BB4-F0A3813C8D3E} = {85DDA7B0-1E88-46BA-A140-0B12F4E512E0}
 		{338472AB-FEA0-4EF6-8498-A41C3BC758A7} = {85DDA7B0-1E88-46BA-A140-0B12F4E512E0}
+		{4945EDFD-7A10-4714-A979-0B059B4AC785} = {AF86C8F4-3A51-42C1-8C6D-FC2EBA6DB876}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8088273-C7FA-4FB1-8E84-A0EB2F15D531}

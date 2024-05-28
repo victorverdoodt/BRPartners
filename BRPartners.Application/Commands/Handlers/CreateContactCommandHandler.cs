@@ -1,6 +1,8 @@
 ﻿using BRPartners.Domain.Core.Entities;
 using BRPartners.Domain.Interfaces;
 using MediatR;
+using System.ComponentModel.DataAnnotations;
+using System;
 
 namespace BRPartners.Application.Commands.Handlers
 {
@@ -25,7 +27,11 @@ namespace BRPartners.Application.Commands.Handlers
                 Phone = request.Phone
             };
 
-
+            var isValid  = Validator.TryValidateObject(request, new ValidationContext(request), null, true);
+            if (!isValid)
+            {
+                return Guid.Empty;
+            }
             await _efRepository.AddAsync(contact);
 
             var syncCommand = new SyncMongoCommand
